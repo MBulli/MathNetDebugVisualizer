@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastWpfGrid", "..\fastwpfgr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteableBitmapEx.Wpf", "..\fastwpfgrid\WriteableBitmapEx\WriteableBitmapEx.Wpf.csproj", "{B0AA6A94-6784-4221-81F0-244A68C374C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{70D5CF83-E611-4726-A5B4-35000958D429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9D6F03C-BFB5-4D31-A15E-7F789B4BBCC3} = {70D5CF83-E611-4726-A5B4-35000958D429}
+		{B0AA6A94-6784-4221-81F0-244A68C374C0} = {70D5CF83-E611-4726-A5B4-35000958D429}
 	EndGlobalSection
 EndGlobal
