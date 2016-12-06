@@ -1,0 +1,30 @@
+﻿<Window x:Class="MathNetVisualizer.MatrixWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MathNetVisualizer"
+             xmlns:f="clr-namespace:FastWpfGrid;assembly=FastWpfGrid"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300"
+             Title="Matrix Visualizer"
+             PreviewKeyUp="Window_PreviewKeyUp" 
+             WindowStartupLocation="CenterOwner" ResizeMode="CanResizeWithGrip"
+             Icon="Icon.png" 
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="214*"/>
+        </Grid.RowDefinitions>
+        <f:FastGridControl x:Name="fastGrid" Grid.Row="1" CellPaddingVertical="2" CellPaddingHorizontal="4" BlockPadding="4"  >
+            <f:FastGridControl.AlternatingColors>
+                <x:Array Type="{x:Type Color}">
+                    <Color>White</Color>
+                </x:Array>
+            </f:FastGridControl.AlternatingColors>
+        </f:FastGridControl>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,4" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBoxNumberFormat" HorizontalAlignment="Right" Margin="10,10,10,4" Content="Long Format" Checked="checkBoxNumberFormat_Checked" Unchecked="checkBoxNumberFormat_Unchecked" />
+    </Grid>
+</Window>

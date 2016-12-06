@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathNetVisualizer", "MathNetVisualizer\MathNetVisualizer.csproj", "{A511F2D8-3161-4A9E-8EC5-F3BB8FB7E217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{DA50819D-4AF8-4E8C-B0B1-3A5AEC0F7B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastWpfGrid", "..\fastwpfgrid\FastWpfGrid\FastWpfGrid.csproj", "{E9D6F03C-BFB5-4D31-A15E-7F789B4BBCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteableBitmapEx.Wpf", "..\fastwpfgrid\WriteableBitmapEx\WriteableBitmapEx.Wpf.csproj", "{B0AA6A94-6784-4221-81F0-244A68C374C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A511F2D8-3161-4A9E-8EC5-F3BB8FB7E217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A511F2D8-3161-4A9E-8EC5-F3BB8FB7E217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A511F2D8-3161-4A9E-8EC5-F3BB8FB7E217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A511F2D8-3161-4A9E-8EC5-F3BB8FB7E217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA50819D-4AF8-4E8C-B0B1-3A5AEC0F7B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA50819D-4AF8-4E8C-B0B1-3A5AEC0F7B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA50819D-4AF8-4E8C-B0B1-3A5AEC0F7B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA50819D-4AF8-4E8C-B0B1-3A5AEC0F7B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D6F03C-BFB5-4D31-A15E-7F789B4BBCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D6F03C-BFB5-4D31-A15E-7F789B4BBCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D6F03C-BFB5-4D31-A15E-7F789B4BBCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D6F03C-BFB5-4D31-A15E-7F789B4BBCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0AA6A94-6784-4221-81F0-244A68C374C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0AA6A94-6784-4221-81F0-244A68C374C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0AA6A94-6784-4221-81F0-244A68C374C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0AA6A94-6784-4221-81F0-244A68C374C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
